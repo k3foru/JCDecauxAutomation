@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Atlas Test Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.rishabhSoft.selenium.JCDecaux.drivers.SoftVerificationTestListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Atlas Unit Booking(failed)" parallel="tests" preserve-order="true">
+    <classes>
+      <class name="com.rishabhSoft.selenium.JCDecaux.testScripts.AtlasSearch">
+        <methods>
+          <include name="startDriver"/>
+          <include name="atlasUnitBooking"/>
+          <include name="doAfterTest"/>
+          <include name="cleanUP"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

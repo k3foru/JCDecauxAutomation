@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.rishabhSoft.selenium.JCDecaux.testScripts.AtlasSearch">
+        <methods>
+          <include name="stopDriver"/>
+          <include name="startDriver"/>
+          <include name="doAfterClass"/>
+          <include name="atlasUnitBooking"/>
+          <include name="doBeforeTest"/>
+          <include name="doAfterTest"/>
+          <include name="searchAvailability"/>
+          <include name="verifyBookedUnit"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
